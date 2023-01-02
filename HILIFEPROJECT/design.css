@@ -1,0 +1,296 @@
+/*navbar menu alignment*/
+#navs{
+  padding-left: 100px;
+  padding-right: 100px;
+  font-size: large;
+  font-style: bold;
+}
+a:hover{
+  background-color: grey;
+  outline-style: groove;
+  border: 1px;
+  border-color: white;
+}
+#life{
+  color:white;
+}
+#navs2{
+  padding-left: 100px;
+  padding-right: 100px;
+  font-size: large;
+  font-style: bold;
+
+}
+#navs3{
+  padding-left: 100px;
+  padding-right: 100px;
+  font-size: large;
+  font-style: bold;
+}
+#navs4{
+  padding-left: 100px;
+  padding-right: 100px;
+  font-size: large;
+  font-style: bold;
+}
+#navs5{
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: large;
+  font-style: bold;
+}
+/*calosion balancing*/
+.raja{
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    font-size: x-large;
+    color:white;
+   }
+.tgr{
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    font-size: x-large;
+    color: white;
+}
+.gan{
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    font-size: x-large;
+    color: white;
+}/*bg-img for sign-in page*/
+/*.bg-image{
+    /* The image used */
+    /*background-image:url(/ASSETS/IMAGE/u.webp);*/
+  
+    /* Add the blur effect */
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px);
+  
+    /* Full height */
+    /*height: 100%;*/
+  
+    /* Center and scale the image nicely */
+    /*background-position:calc();
+    background-repeat: no-repeat;
+    background-size:cover;
+  }*/
+
+  /*form*/
+  .coo{
+    width: 350px;
+    height: 750px;
+    border :none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-left: 10%;
+    text-shadow: 2px 4px 2px rgb(0, 0, 0);
+  }
+  /* imag for about*/
+  .bg-images{
+    background-image: url(/ASSETS/IMAGE/aboutim.jpg);
+    background-position:calc();
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+/*styles for  texts in about*/ 
+.cli{
+    font-size: large;
+    color: #f1f1f1;
+}
+.prr{
+    width: 200px;
+}
+.pro{
+    font-size: large;
+    color: #f1f1f1;
+}
+.proo{
+    color: #f1f1f1;
+}
+.emp{
+    font-size: large;
+    color: white;
+}
+.crm{
+    font-size: large;
+    color: white;
+}
+.web{
+    font-size: large;
+    color: white;
+}
+.ecom{
+    font-size: large;
+    color: white;
+}
+/*sign-in input design*/
+input[type=text] {
+    
+    color: rgb(2, 0, 0);
+    border: none;
+    background: transparent;
+    color: white;
+    border-bottom: 1px solid rgb(255, 255, 255);
+  }
+  input[type=email] {
+    color:black;
+    border: none;
+    background: transparent;
+    color: white;
+    border-bottom: 1px solid rgb(255, 255, 255);
+  }
+  input[type=password] {
+    color:black;
+    border: none;
+    background: transparent;
+    color: white;
+    border-bottom: 1px solid rgb(255, 255, 255);
+  }
+  input[type=password] {
+    color:black;
+    border: none;
+    background: transparent;
+    color: white;
+    border-bottom: 1px solid rgb(255, 255, 255);
+  }
+  /*animation*/
+.img5:hover {
+    transform: rotate(360deg);
+    transition: 0.10s;
+  }
+  
+.img2:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+  }
+.img1:hover {
+  -webkit-transform: scaleX(-1);
+  transform:scaleX(-1)
+  }
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+.img3:hover{
+  transform: rotate(360deg);
+  transition: 0.10s;
+}
+.img4:hover{
+    -webkit-transform: scaleX(-1);
+    transform:scaleX(-1)
+}
+.img6:hover{
+    -webkit-transform: scaleX(-1);
+    transform:scaleX(-1)
+}/*img forservice*/
+.bg-image4{
+  background-image: url(/ASSETS/IMAGE/istockphoto-1179697528-612x612.jpg);
+  height: 100%;
+  background-position:calc();
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.cono{
+  background-image: url(/ASSETS/IMAGE/contect.jpg);
+  height: 100%;
+  background-position:calc();
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.preey{
+  background: transparent;
+  border: none;
+  font-size: x-large;
+  color: gold;
+}
+.fr{
+  font-size: large;
+  font-style: oblique;
+  color: white;
+  text-align: center;
+}
+/*contact*/
+#contact{
+  padding-top: 1%;
+  background:linear-gradient(to right,#3f5efb,#fc466b)
+}
+#contact iframe{
+  padding-top: 1%;
+  padding-bottom: 0%;
+  box-shadow: 15px 20px 10px rgba(0,0,0,.8);
+}
+/*card effects*/
+.card:hover{
+  opacity: 0.5;
+  box-shadow: 8px 8px 15px rgba(0,0,0,.8);
+}
+/* product ist */
+.f11{
+  padding-top: 5%;
+  padding-left: 6%;
+  font-size: x-large;
+  text-align:justify;
+  color: #f1f1f1;
+}
+.f12{
+  padding-top: 5%;
+  padding-left: 6%;
+  font-size: x-large;
+  text-align:justify;
+  color: #f1f1f1;
+}
+.f13{
+  padding-top: 5%;
+  padding-left: 6%;
+  font-size: x-large;
+  text-align:justify;
+  color: #f1f1f1;
+}
+.f14{
+  padding-top: 5%;
+  padding-left: 6%;
+  font-size: x-large;
+  text-align:justify;
+  color: #f1f1f1;
+}
+.f15{
+  padding-top: 5%;
+  padding-left: 6%;
+  font-size: x-large;
+  text-align:justify;
+  color: #f1f1f1;
+}
+.hea{
+  padding-left: 0.5in;
+}
+.bg-imagesss{
+  background-image: url(/ASSETS/IMAGE/u.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
